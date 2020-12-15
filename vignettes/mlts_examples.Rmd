@@ -1,0 +1,42 @@
+---
+title: "MLTS Examples"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{MLTS}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The MLTS package contains functions for forecasting time series using machine learning methods. Functions are also available for running simulation studies to compare the performance of various machine learning methods to common time series forecasting methods such as ARIMA. This vignette provides detailed examples of using the functions found in the MLTS package.
+
+## Time Series Forecasting
+
+This section provides examples of modeling and forecasting the wineind data from the forecast package.
+
+`library(forecast)`
+
+`?wineind`
+
+### Machine Learning Methods
+
+The `mlts_cv` function can be used to model and forecast the wineind using machine learning methods. Three machine learning methods are available: gradient boosting, random forest, and support vector machine.  
+
+#### XGBoost
+
+
+#### Random Forest
+
+#### Support Vector Machine
+
+### Parametric Methods
+
+#### ARIMA
+
+#### Dynamic Harmonic Regression
+
+## Simulation Studies
+

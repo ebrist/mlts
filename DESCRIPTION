@@ -1,0 +1,31 @@
+Package: MLTS
+Title: Machine Learning for Time Series
+Version: 0.0.1
+Authors@R: person("Eric", "Brist", email = "eric.brist@gmail.com", role = c("aut", "cre"))
+Description: This package contains functions for time series forecasting using machine learning methods. 
+    The methods include random forest, extreme gradient boosting, and support vector machine. 
+    Functions for ARIMA and dynamic harmonic regression forecasting are also provided. 
+    Simulation functions are also included to compare the performance of these methods on specific forms of time series data.
+Depends:
+  R (>= 3.5.0)
+Imports: 
+  data.table,
+  dplyr,
+  ggplot2,
+  gridExtra,
+  pander,
+  tibble,
+  randomForest,
+  smooth,
+  plotly,
+  e1071,
+  xgboost,
+  forecast
+Suggests:
+  rmarkdown,
+  knitr
+VignetteBuilder: knitr
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
